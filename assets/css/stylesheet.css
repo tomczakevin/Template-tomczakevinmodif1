@@ -1,0 +1,181 @@
+
+/*max-width: 100%;
+padding: 0;
+margin:0;*/
+html {
+  100%;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-attachment:fixed;
+  background-image: url('assets/img/fond4.jpg');
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+
+ul{
+  padding: 0;
+  margin-left: 80%;;
+  margin-right: auto;
+  list-style: none;
+}
+a{
+  font-size: 15px;
+  font-family: helvetica-light;
+  padding: 0;
+  color: gray;
+}
+p{
+  font-size: 10px;
+  font-family: 'Poiret One', cursive;
+  color: rgba(194, 156, 111, 0.4);
+}
+ .nom p{
+   height: 50px;
+   font-size: 40px;
+ }
+
+/*-------------------------Menu-------------------------------------*/
+.show_hide {
+  display:none;
+}
+.navbar-fixed-top + * {
+  padding-top: 60px;
+}
+.menu-cate-p {
+  margin-left:12px;
+}
+.toggle{
+  position: fixed;
+  width: 120px;
+  height: 90px;
+}
+#menu-cate, #menu-cate ul{
+  padding:0;
+  margin:0;
+  font-size:12px;
+  list-style:none;
+  z-index:50;
+}
+#menu-cate li{
+  display:inline-block;
+  position:relative;
+  text-align: center;
+}
+#menu-cate ul li{
+  display:inherit;
+}
+
+#menu-cate ul{
+  position:absolute;
+  max-height:0;
+  left: 0;
+  right: 0;
+  overflow:hidden;
+  -moz-transition: .8s all .3s;
+  -webkit-transition: .8s all .3s;
+  transition: .8s all .3s;
+}
+#menu-cate li:hover ul{
+  max-height:15em;
+}
+/* background des liens menus */
+#menu-cate li{
+margin: 0;
+}
+
+/* les a href */
+#menu-cate a{
+  text-decoration:none;
+  display:block;
+  padding:6px 12px;
+  color: rgba(194, 156, 111, 0.4);
+  font-family: 'Poiret One', cursive;
+}
+
+#menu-cate a.first{
+  padding:0;
+}
+
+#menu-cate ul a{
+  margin-top: 2px;
+  padding:8px 0;
+}
+#menu-cate li:hover li a{
+  font-family: 'Poiret One', cursive;
+
+  color: rgba(194, 156, 111, 0.4);
+  text-transform:inherit;
+}
+#menu-cate li:hover a, #menu-demo2 li li:hover a{
+
+  color:rgba(47, 48, 52, 0.1);
+}
+
+#menu-cate ul li img{
+margin-right: 20px;
+width: 50px;
+height: 50px;
+}
+
+/*-------------------------Fin Menu-------------------------------------*/
+
+
+
+
+
+
+
+
+
+.bande{
+  margin-top: -10%;
+  position: fixed;
+  width: 100%;
+  padding: -0;
+}
+.menu{
+  padding-top: 10px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+      transition: opacity .6s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.samy{
+  margin-top: 10%;
+}
+.samy img{
+  border: 2px solid rgba(194, 156, 111, 0.3);
+  box-shadow: 0px 7px 0px rgba(47, 48, 52, 0.1);
+}
+
+.boby{
+  margin-top: 10%;
+}
+.boby img{
+  border: 2px solid rgba(194, 156, 111, 0.3);
+  box-shadow: 0px 7px 0px rgba(47, 48, 52, 0.1);
+}
+
+.john{
+  margin-top: 10%;
+}
+
+.john img{
+  border: 2px solid rgba(194, 156, 111, 0.3);
+  box-shadow: 0px 7px 0px rgba(47, 48, 52, 0.1);
+}
+/*.sociaux{
+border: 1px solid blue;
+width: 100%;
+}*/
